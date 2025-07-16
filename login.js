@@ -19,8 +19,6 @@ const city = document.getElementById(city);
 if (!city) return alert("Select a country");
   if (isValid) {
         alert("Form submitted successfully!");
-        // You can submit data using fetch/AJAX or reset the form here
-        // Example: this.submit(); if connected to a real backend
         document.getElementById("loginForm").reset();
       }
  });
